@@ -16,6 +16,7 @@ public class text618{
                 c[i][j] = stdIn.nextInt();
             }
         }
+        System.out.println("配列を表示します。");
 
         for(int i = 0; i < c.length; i++){
             for(int j = 0; j < c[i].length; j++)
