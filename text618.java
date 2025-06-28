@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class text618{
     public static void main(String[] args) {
         Scanner stdIn = new Scanner(System.in);
-        System.out.println("配列の行数とそれぞれの行の要素数、要素を指定してください。");
+        System.out.println("配列の行数、とそれぞれの行の要素数、要素を指定してください。");
         int[][] c;
         System.out.print("行数: "); int n = stdIn.nextInt();
         c = new int[n][];
