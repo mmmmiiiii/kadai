@@ -11,6 +11,10 @@ public class text618{
         for(int i = 0; i < n; i++){
             System.out.print(i + "行目の要素数: "); int m = stdIn.nextInt();
             c[i] = new int[m];
+            for (int j = 0; j < m; j++) {
+                System.out.print("c[" + i + "][" + j + "] = ");
+                c[i][j] = stdIn.nextInt();
+            }
         }
 
         for(int i = 0; i < c.length; i++){
